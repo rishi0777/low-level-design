@@ -13,7 +13,7 @@ public class BookController {
     @Autowired
     private BookService bookservice;
 
-    @GetMapping("/getAll")
+    @GetMapping("/get-all")
     public List<Book> getBooks(){
         return bookservice.getAllBooks();
     }
@@ -28,7 +28,7 @@ public class BookController {
         return bookservice.insertBook(book);
     }
 
-    @PostMapping("/insertAll")
+    @PostMapping("/insert-all")
     public boolean insertAllBooks(@RequestBody List<Book> books){
         return bookservice.insertAllBooks(books);
     }

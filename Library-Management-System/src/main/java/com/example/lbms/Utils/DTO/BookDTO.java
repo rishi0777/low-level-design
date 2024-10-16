@@ -1,12 +1,11 @@
 package com.example.lbms.Utils.DTO;
 
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.Setter;
+import lombok.*;
 
 @Getter
 @Setter
-@AllArgsConstructor
+@ToString
+@Builder
 public class BookDTO {
     private String bookName;
     private String author;

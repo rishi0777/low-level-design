@@ -2,6 +2,7 @@ package com.example.lbms.Controller;
 
 import com.example.lbms.Model.User.User;
 import com.example.lbms.Service.UserService;
+import com.example.lbms.Utils.DTO.BookCopyDTO;
 import com.example.lbms.Utils.DTO.UserDTO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;

@@ -2,6 +2,7 @@ package com.example.lbms.Service;
 
 import com.example.lbms.Model.User.User;
 import com.example.lbms.Repository.UserRepository;
+import com.example.lbms.Utils.DTO.BookCopyDTO;
 import com.example.lbms.Utils.DTO.UserDTO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.AuthenticationManager;

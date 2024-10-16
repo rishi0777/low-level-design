@@ -1,23 +1,31 @@
 package com.example.lbms.Model;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
-import lombok.Getter;
-import lombok.Setter;
-import lombok.ToString;
+import lombok.*;
 
 import java.util.Date;
+import java.util.List;
+
 @Getter
 @Setter
 @ToString
-@Entity(name="BookCopy")
+@NoArgsConstructor
+@AllArgsConstructor
+@Builder
+@Entity(name = "BookCopy")
 public class BookCopy {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long bookCopyId;
     private boolean isBorrowed;
-    private Date dateOfIssue;
+    private List<Date> dateOfIssue;
+    private List<Date> dateOfReturn;
+
+    // TODO: this needs to be the value as present in User table not other value
+    private List<String> borrowedByUser;
 
     @ManyToOne
     @JoinColumn(name = "book_id", nullable = false) // foreign key
-    private Book book; // reference to book entity
+    private Book book;
 }
