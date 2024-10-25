@@ -2,7 +2,10 @@ package com.example.LLD;
 
 public class Main {
     public static void main(String[] args) {
-        TicTacToeApplication game = new TicTacToeApplication();
-        System.out.println(game.runGame());
+        System.out.println("----- Running the code -----\n");
+        ParkingSystem parkingSystem = new ParkingSystem();
+        parkingSystem.initialize();
+        parkingSystem.run();
+        System.out.println("----- Code Exited -----\n");
     }
 }
