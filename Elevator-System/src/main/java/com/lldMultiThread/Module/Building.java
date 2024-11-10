@@ -1,11 +1,11 @@
-package com.lld.Module;
+package com.lldMultiThread.Module;
 
-import com.lld.Module.Dispatcher.ExternalButtonDispatcher.ExternalEvenOddDispatcher;
-import com.lld.Module.Dispatcher.ExternalButtonDispatcher.ExternalButtonDispatcher;
-import com.lld.Module.Dispatcher.InternalButtonDispatcher.InternalButtonDispatcher;
-import com.lld.Module.Dispatcher.InternalButtonDispatcher.InternalEvenOddDispatcher;
-import com.lld.Module.Floor.Floor;
-import com.lld.Module.Lift.LiftController;
+import com.lldMultiThread.Module.Dispatcher.ExternalButtonDispatcher.ExternalEvenOddDispatcher;
+import com.lldMultiThread.Module.Dispatcher.ExternalButtonDispatcher.ExternalButtonDispatcher;
+import com.lldMultiThread.Module.Dispatcher.InternalButtonDispatcher.InternalButtonDispatcher;
+import com.lldMultiThread.Module.Dispatcher.InternalButtonDispatcher.InternalEvenOddDispatcher;
+import com.lldMultiThread.Module.Floor.Floor;
+import com.lldMultiThread.Module.Lift.LiftController;
 
 import java.util.ArrayList;
 import java.util.List;

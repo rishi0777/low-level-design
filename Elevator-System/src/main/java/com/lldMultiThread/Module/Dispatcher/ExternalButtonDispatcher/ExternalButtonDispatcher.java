@@ -1,9 +1,4 @@
-package com.lld.Module.Dispatcher.ExternalButtonDispatcher;
-
-import com.lld.Module.Lift.LiftController;
-import com.lld.Utils.Enum.Direction;
-
-import java.util.List;
+package com.lldMultiThread.Module.Dispatcher.ExternalButtonDispatcher;
 
 public interface ExternalButtonDispatcher {
     void submitRequestForLiftAndDestination (int liftRequestedFloor, int destinationFloor);

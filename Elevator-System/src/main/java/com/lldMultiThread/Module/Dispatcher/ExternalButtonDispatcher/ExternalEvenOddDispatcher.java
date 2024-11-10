@@ -1,7 +1,6 @@
-package com.lld.Module.Dispatcher.ExternalButtonDispatcher;
+package com.lldMultiThread.Module.Dispatcher.ExternalButtonDispatcher;
 
-import com.lld.Module.Lift.LiftController;
-
+import com.lldMultiThread.Module.Lift.LiftController;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;

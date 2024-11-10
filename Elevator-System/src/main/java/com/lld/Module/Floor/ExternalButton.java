@@ -1,9 +1,6 @@
 package com.lld.Module.Floor;
 
 import com.lld.Module.Dispatcher.ExternalButtonDispatcher.ExternalButtonDispatcher;
-import com.lld.Utils.Enum.Direction;
-
-import java.util.List;
 
 public class ExternalButton {
     private ExternalButtonDispatcher externalButtonDispatcher;

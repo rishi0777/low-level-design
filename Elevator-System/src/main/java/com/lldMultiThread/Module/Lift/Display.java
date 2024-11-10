@@ -1,7 +1,7 @@
-package com.lld.Module.Lift;
+package com.lldMultiThread.Module.Lift;
 
-import com.lld.Utils.Enum.Direction;
-import com.lld.Utils.Enum.Status;
+import com.lldMultiThread.Utils.Enum.Direction;
+import com.lldMultiThread.Utils.Enum.Status;
 import lombok.Getter;
 import lombok.Setter;
 

@@ -1,7 +1,6 @@
-package com.lld;
+package com.lldMultiThread;
 
-
-import com.lld.Module.Building;
+import com.lldMultiThread.Module.Building;
 
 public class ElevatorSystemApplication {
 	public static void main(String[] args) {

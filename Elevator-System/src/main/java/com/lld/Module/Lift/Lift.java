@@ -1,8 +1,8 @@
 package com.lld.Module.Lift;
 
 import com.lld.Module.Dispatcher.InternalButtonDispatcher.InternalButtonDispatcher;
-import com.lld.Utils.Enum.Direction;
-import com.lld.Utils.Enum.Status;
+import com.lldMultiThread.Utils.Enum.Direction;
+import com.lldMultiThread.Utils.Enum.Status;
 
 public class Lift {
     private int liftId;

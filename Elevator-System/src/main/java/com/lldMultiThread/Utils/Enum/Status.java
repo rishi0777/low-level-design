@@ -1,4 +1,4 @@
-package com.lld.Utils.Enum;
+package com.lldMultiThread.Utils.Enum;
 
 public enum Status {
     IDEAL,
